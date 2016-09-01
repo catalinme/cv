@@ -1,0 +1,192 @@
+%% start of file `template.tex'.
+%% Copyright 2006-2010 Xavier Danaux (xdanaux@gmail.com).
+%% Copyright 2010-2011 Mark Liu (markwayneliu@gmail.com).
+%
+% This work may be distributed and/or modified under the
+% conditions of the LaTeX Project Public License version 1.3c,
+% available at http://www.latex-project.org/lppl/.
+
+\documentclass[11pt,a4paper,sans]{moderncv}
+
+\usepackage{verbatim}
+
+% moderncv themes
+\moderncvstyle{classic}
+\moderncvcolor{blue}
+
+% character encoding
+\usepackage[utf8]{inputenc}                   % replace by the encoding you are using
+
+% adjust the page margins
+\usepackage[scale=0.8]{geometry}
+%\setlength{\hintscolumnwidth}{3cm}                     % if you want to change the width of the column with the dates
+%\AtBeginDocument{\setlength{\maketitlenamewidth}{6cm}}  % only for the classic theme, if you want to change the width of your name placeholder (to leave more space for your address details
+%\AtBeginDocument{\recomputelengths}                     % required when changes are made to page layout lengths
+
+
+% personal data
+\firstname{Catalin}
+\familyname{Moraru}
+%\address{(omitted for web)}{(omitted for web)}    % optional, remove the line if not wanted
+\email{catalin.me@gmail.com}                      % optional, remove the line if not wanted
+\mobile{(+40727320330)}                    % optional, remove the line if not wanted
+%\homepage{http://markliu.me}                % optional, remove the line if not wanted
+%\extrainfo{\url{http://markliu.me}} % optional, remove the line if not wanted
+
+% to show numerical labels in the bibliography; only useful if you make citations in your resume
+%\makeatletter
+%\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}
+%\makeatother
+
+%\nopagenumbers{}                             % uncomment to suppress automatic page numbering for CVs longer than one page
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
+\begin{document}
+\maketitle
+
+%% Not relevant right now
+%\section{General information}
+%\cventry{Full name}{Catalin Eugen Moraru}{}{}{}{}
+%\cventry{Date of birth}{23.02.1987}
+%\cventry{Address}{Str. Laborator nr 145, Sector 3 Bucharest, Romania}
+%\cventry{Phone}{+40 727320330}
+%\cventry{E-mail}{catalin.me@gmail.com}
+%
+
+%\cventry{}{}{}{}{}{}
+
+\section{Education} %--------------------------------------------------
+
+\cventry{2010--2011}{Master Degree}{University POLITEHNICA of Bucharest}{}{\newline{}Automatic Control and Computers Faculty}{Area of Study: Distributed Systems\newline{}Dissertation title:\textit{Scalable Overlay for P2P Social Networks}}
+%GPA 10.00
+
+\cventry{2006--2010}{Bachelor Degree}{University POLITEHNICA of Bucharest}{}{\newline{}Automatic Control and Computers Faculty}{Area of study: Computer Science}
+%GPA 10.00
+
+\cventry{2002--2006}{Baccalaureate}{Mihai Viteazul National College}{\textit{Ploiesti}}{}{Area of study: Mathematics - Informatics}
+%GPA 9.70
+
+
+\section{Professional Experience} %-------------------------------------
+%\cventry{year--year}{Job title}{Employer}{City}{}{Description}
+
+\cventry{2015--Present}{Senior Software Engineer}{OTC Intel Romania}{Bucharest}{}{
+\begin{itemize}
+    \item {DSLTE Hybrid Access}
+        \begin{itemize}
+            \item The project aims to create a bandwidth aggregation solution for DSL and LTE WAN access links. The solution is a packet-switched aggregation that benefits from custom MPTCP congestion control to deal with the very different link technologies
+            \item The skill-set involved Linux TCP stack understanding, advanced performance tuning and debugging at both system and networking level.
+            \item Part of the team that developed the project from POC to product state.
+            \item Sustained a demo of the project at Mobile World Congress 2016 as part of the Intel Demo team
+        \end{itemize}
+\end{itemize}
+}
+
+
+\cventry{2013--2015}{Software Engineer}{OTC Intel Romania -- as a RINF Contingent Worker}{Bucharest}{}{
+\begin{itemize}
+    \item{AppMigrator}
+        \begin{itemize}
+            \item Part of a 3 member team that designed and implemented a solution for migrating running applications between Android mobile devices. Applications were virtualized by means of linux-based containers. The migration was seamless not only in terms of downtime, but also in terms of network responsiveness.
+            \item Based on the different types of applications, different live migration strategies were used (mainly a mix of post-copy and pre-copy migration) 
+            \item Development areas include: virtualization, live-migration, KVM, Multipath TCP, kernel drivers, Qemu C++ development
+            \item The project is part of a research EU FP7 Consortium with multiple industry and academia partners
+            \item The project was awarded R\&D Project of the year 2016 by ANIS
+        \end{itemize}
+    \item {Multipath TCP}
+        \begin{itemize}
+            \item Involved in testing and benchmarking the MPTCP open-source implementation from user-space point of view through applications like VM Migration \item Involved in patchwork for the existing opens-source implementation and setup of various test environments for MPTCP. A spinoff of this project was the integration of MPTCP for redundancy with an Openstack-controlled cluster deployment as a joined project Intel Cloud Platform Division.
+        \end{itemize}
+\end{itemize}
+}
+
+\cventry{}{}{}{}{}{
+\begin{itemize}
+    \item {Android on ChromeOS}
+        \begin{itemize}
+            \item Developed a POC of a running Android OS on ChromeOS platform by integrating Qemu with NativeClient. The end result is a way to have virtualized Android applications on ChromeOS. The POC was then later on handed to a product team for further development.
+            \item The work resulted from the POC was accepted as a presentation at Intel OSTS 2014
+        \end{itemize}  
+    \item {SGX enabling on Openstack}
+        \begin{itemize}
+            \item Worked with the Intel SGX Romania division to allow the Openstack framework to take advantage of the Intel SGX extension
+            \item My role involved configuring the Openstack framework in order to better fit an SGX-capable Virtual Machine
+        \end{itemize}
+\end{itemize}
+}
+
+
+\cventry{2011--2013}{C\textbackslash C++ Developer}{Axway Romania}{Bucharest}{}{
+\begin{itemize}
+    \item Project: Integrator: highly scalable, “any-to-any” and “many-to-many” transformation engine that offers full support for standard and non-standard document types, direct database read/write, and multiple input, target and reference files in a single transformation routine. Tasks included development, maintenance and continuous integration, remote support sessions on client production environment regarding functional and performance issues
+    \item Project: B2BI: Business to Business Integration application that enables high data availability and consistency. Tasks included maintenance and optimization of a key core component of B2BI, as well as continuing to offer remote support for clients
+    \item During this period I improved my debugging skills as a result of debugging real world distributed systems on product environments in time critical situations. 
+    \item I have also increased my ability to internalize new tools and development systems.
+    \item Technologies used: 
+    \begin{itemize}
+        \item Languages:Java, C, Python, MessageBuilder (Axway proprietary)
+        \item Development platforms: Linux, Windows, Solaris, HPUX, AIX 
+        \item Tools: Mantise, svn, git, Eclipse IDE, Intellij IDEA, OpenGrok + ctags, Linux env tools, WinDdg, (gdb, strace, netstat, etc.), OracleDB, SQL db, Jenkins, VMWare Workstation, Axway specific monitoring and debugging tools
+    \end{itemize}
+\end{itemize}
+}
+
+\cventry{2010--2012}{Associate Teaching Assistant}{University POLITEHNICA of Bucharest}{\newline{}Automatic Control and Computers Faculty}{}{
+{Course:} Operating Systems \newline{}%
+{Activities:}%
+\begin{itemize}
+    \item Developed laboratory resources for bachelor students in the 3rd year of study
+    \item Assisted the laboratory classes and guided students towards a better understanding of the theoretical concepts through hands-on tasks
+    \item Helped students to solve basic system programming tasks using both Linux and Windows specific APIs
+ \end{itemize}
+}
+
+\cventry{2010--2011}{C\textbackslash C++ embedded Developer}{Virtual Metrix}{Bucharest}{}{
+\begin{itemize}
+    \item Project: VMXL4 
+    \item Part of a 4 member team that enabled a paravirtualized Linux to run on top of a L4 family microkernel. The project was targeted for ARM platforms: Beagleboard ARM v6 and Pandaboard ARM v7
+    \item During this project I have improved my knowledge of Operating System internals and ARM assembly, and also increased my knowledge of the C language
+    \item Technologies used: git, C/C++,  various linux tools (mkfs, objdump, readelf, gdb, uboot), BusyBox, Skyeye simulator, Codesourcery toolchain, Gnu ARM toolchain, Scons python, Wiki, Trac
+\end{itemize}
+}
+
+\cventry{2008--2009}{Junior embedded C Developer}{Luxoft Romania}{Bucharest}{}{
+\begin{itemize}
+    \item Project: Baystack - OS for layer 2/3 switches products for Nortel
+    \item Involved in maintanance tasks with the following areas from the project:  QoS, LDAP, LLDP, SNMP
+    \item Technologies used: C, Wind River Workbench, ClearCase
+\end{itemize}
+}
+
+\section{Patents Co-author}
+\cventry{Approved for filing in 2015}{Mobile device navigation method for finding points of interest}{Intel ID:122552}{}{}{}
+\cventry{Filed in 2014}{Mobile device navigation method for management of large groups}{Intel ID:117892}{}{}{}
+
+\section{Certificates}
+\cventry{2010}{Advanced Computer Science and Business Oracle Academy Program}{\newline{}University POLITEHNICA of Bucharest}{\newline{}Certificate of course completion}{}{}
+\cventry{2009}{Cisco Certified Network Associate}{AcademiaCisco, UPB}{\newline{}Certificate of course completion}{}{}
+
+
+\section{Computer skills}
+\cvitem{Area of expertise}{\begin{itemize}
+\item Deep understanding of client/server programming, systems programming, distributed system applications optimized for performance and scalability
+\item Strong Linux experience, configuration and administration skills, knowledge of Operating System internals
+\item Strong knowledge of generic algorithms and distributed algorithms
+\end{itemize}}
+\cvitem{Programming Languages}{C, C++, Python, Java, C\#, OpenMP, MPI, OpenGL, Bash Scripting}
+\cvitem{Operating Systems}{UNIX based systems (Linux, HPUX, AIX), Windows, Android, WindRiver}
+\cvitem{DB Management}{MySQL, Oracle}
+
+
+%\section{Awards and Grants}
+
+
+\section{Languages}
+\cvitemwithcomment{Romanian}{Speaking 5, Writing 5}{Native language}
+\cvitemwithcomment{English}{Speaking 4, Writing 3}{}
+\cvitemwithcomment{German}{Speaking 2, Writing 2}{}
+\cvitemwithcomment{}{}{Marked 1-5, where 5 is excellent}
+
+\end{document}
+
