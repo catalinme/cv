@@ -1,0 +1,192 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+classic
+blue
+
+
+                   
+
+
+
+
+
+
+
+
+
+Catalin
+Moraru
+
+catalin.me@gmail.com                      
+(+40727320330)                    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Education 
+
+2010--2011Master DegreeUniversity POLITEHNICA of BucharestAutomatic Control and Computers FacultyArea of Study: Distributed SystemsDissertation title:Scalable Overlay for P2P Social Networks
+
+
+2006--2010Bachelor DegreeUniversity POLITEHNICA of BucharestAutomatic Control and Computers FacultyArea of study: Computer Science
+
+
+2002--2006BaccalaureateMihai Viteazul National CollegePloiestiArea of study: Mathematics - Informatics
+
+
+
+Professional Experience 
+
+
+2015--PresentSenior Software EngineerOTC Intel RomaniaBucharest
+
+    DSLTE Hybrid Access
+        
+            The project aims to create a bandwidth aggregation solution for DSL and LTE WAN access links. The solution is a packet-switched aggregation that benefits from custom MPTCP congestion control to deal with the very different link technologies
+            The skill-set involved Linux TCP stack understanding, advanced performance tuning and debugging at both system and networking level.
+            Part of the team that developed the project from POC to product state.
+            Sustained a demo of the project at Mobile World Congress 2016 as part of the Intel Demo team
+        
+
+
+
+
+2013--2015Software EngineerOTC Intel Romania -- as a RINF Contingent WorkerBucharest
+
+    AppMigrator
+        
+            Part of a 3 member team that designed and implemented a solution for migrating running applications between Android mobile devices. Applications were virtualized by means of linux-based containers. The migration was seamless not only in terms of downtime, but also in terms of network responsiveness.
+            Based on the different types of applications, different live migration strategies were used (mainly a mix of post-copy and pre-copy migration) 
+            Development areas include: virtualization, live-migration, KVM, Multipath TCP, kernel drivers, Qemu C++ development
+            The project is part of a research EU FP7 Consortium with multiple industry and academia partners
+            The project was awarded RD Project of the year 2016 by ANIS
+        
+    Multipath TCP
+        
+            Involved in testing and benchmarking the MPTCP open-source implementation from user-space point of view through applications like VM Migration Involved in patchwork for the existing opens-source implementation and setup of various test environments for MPTCP. A spinoff of this project was the integration of MPTCP for redundancy with an Openstack-controlled cluster deployment as a joined project Intel Cloud Platform Division.
+        
+
+
+
+
+
+    Android on ChromeOS
+        
+            Developed a POC of a running Android OS on ChromeOS platform by integrating Qemu with NativeClient. The end result is a way to have virtualized Android applications on ChromeOS. The POC was then later on handed to a product team for further development.
+            The work resulted from the POC was accepted as a presentation at Intel OSTS 2014
+          
+    SGX enabling on Openstack
+        
+            Worked with the Intel SGX Romania division to allow the Openstack framework to take advantage of the Intel SGX extension
+            My role involved configuring the Openstack framework in order to better fit an SGX-capable Virtual Machine
+        
+
+
+
+
+2011--2013CC++ DeveloperAxway RomaniaBucharest
+
+    Project: Integrator: highly scalable, “any-to-any” and “many-to-many” transformation engine that offers full support for standard and non-standard document types, direct database read/write, and multiple input, target and reference files in a single transformation routine. Tasks included development, maintenance and continuous integration, remote support sessions on client production environment regarding functional and performance issues
+    Project: B2BI: Business to Business Integration application that enables high data availability and consistency. Tasks included maintenance and optimization of a key core component of B2BI, as well as continuing to offer remote support for clients
+    During this period I improved my debugging skills as a result of debugging real world distributed systems on product environments in time critical situations. 
+    I have also increased my ability to internalize new tools and development systems.
+    Technologies used: 
+    
+        Languages:Java, C, Python, MessageBuilder (Axway proprietary)
+        Development platforms: Linux, Windows, Solaris, HPUX, AIX 
+        Tools: Mantise, svn, git, Eclipse IDE, Intellij IDEA, OpenGrok + ctags, Linux env tools, WinDdg, (gdb, strace, netstat, etc.), OracleDB, SQL db, Jenkins, VMWare Workstation, Axway specific monitoring and debugging tools
+    
+
+
+
+2010--2012Associate Teaching AssistantUniversity POLITEHNICA of BucharestAutomatic Control and Computers Faculty
+Course: Operating Systems 
+Activities:
+
+    Developed laboratory resources for bachelor students in the 3rd year of study
+    Assisted the laboratory classes and guided students towards a better understanding of the theoretical concepts through hands-on tasks
+    Helped students to solve basic system programming tasks using both Linux and Windows specific APIs
+ 
+
+
+2010--2011CC++ embedded DeveloperVirtual MetrixBucharest
+
+    Project: VMXL4 
+    Part of a 4 member team that enabled a paravirtualized Linux to run on top of a L4 family microkernel. The project was targeted for ARM platforms: Beagleboard ARM v6 and Pandaboard ARM v7
+    During this project I have improved my knowledge of Operating System internals and ARM assembly, and also increased my knowledge of the C language
+    Technologies used: git, C/C++,  various linux tools (mkfs, objdump, readelf, gdb, uboot), BusyBox, Skyeye simulator, Codesourcery toolchain, Gnu ARM toolchain, Scons python, Wiki, Trac
+
+
+
+2008--2009Junior embedded C DeveloperLuxoft RomaniaBucharest
+
+    Project: Baystack - OS for layer 2/3 switches products for Nortel
+    Involved in maintanance tasks with the following areas from the project:  QoS, LDAP, LLDP, SNMP
+    Technologies used: C, Wind River Workbench, ClearCase
+
+
+
+Patents Co-author
+Approved for filing in 2015Mobile device navigation method for finding points of interestIntel ID:122552
+Filed in 2014Mobile device navigation method for management of large groupsIntel ID:117892
+
+Certificates
+2010Advanced Computer Science and Business Oracle Academy ProgramUniversity POLITEHNICA of BucharestCertificate of course completion
+2009Cisco Certified Network AssociateAcademiaCisco, UPBCertificate of course completion
+
+
+Computer skills
+Area of expertise
+Deep understanding of client/server programming, systems programming, distributed system applications optimized for performance and scalability
+Strong Linux experience, configuration and administration skills, knowledge of Operating System internals
+Strong knowledge of generic algorithms and distributed algorithms
+
+Programming LanguagesC, C++, Python, Java, C, OpenMP, MPI, OpenGL, Bash Scripting
+Operating SystemsUNIX based systems (Linux, HPUX, AIX), Windows, Android, WindRiver
+DB ManagementMySQL, Oracle
+
+
+
+
+
+Languages
+RomanianSpeaking 5, Writing 5Native language
+EnglishSpeaking 4, Writing 3
+GermanSpeaking 2, Writing 2
+Marked 1-5, where 5 is excellent
+
+
+
